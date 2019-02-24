@@ -369,9 +369,9 @@ main {
   list-style: none;
   padding: 10px;
   border: 1px solid #e6e6e6;
-  /* -webkit-transition: .3s all ease;
+  -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
-  transition: .3s all ease; */
+  transition: .3s all ease;
 }
 
 .portfolio-list li:hover {
@@ -392,31 +392,32 @@ main {
   bottom: 0;
   right: 0;
   background: #F73859;
-  /* -webkit-transition: .3s all ease;
+  -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
-  transition: .3s all ease; */
+  transition: .3s all ease;
   visibility: hidden;
   opacity: 0;
 }
 
 .portfolio-list li a img {
   max-width: 100%;
+  height: auto;
 }
 
 .portfolio-list li a .text {
   position: absolute;
   top: 50%;
-  /* -webkit-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
-  transform: translateY(-50%); */
+  transform: translateY(-50%);
   text-align: center;
   left: 0;
   right: 0;
   opacity: 0;
   visibility: hidden;
-  /* -webkit-transition: .3s all ease;
+  -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
-  transition: .3s all ease; */
+  transition: .3s all ease;
 }
 
 .portfolio-list li a .text h3 {
