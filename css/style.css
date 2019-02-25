@@ -401,6 +401,7 @@ main {
 
 .portfolio-list li a img {
   max-width: 100%;
+  height: auto;
 }
 
 .portfolio-list li a .text {
